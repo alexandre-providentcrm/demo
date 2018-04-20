@@ -1,6 +1,6 @@
 <?php
 
-namespace Dracony\Demo;
+namespace Alex\Demo;
 
 class Hello
 {

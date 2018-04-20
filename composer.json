@@ -1,8 +1,8 @@
 {
     "autoload": {
         "psr-4": {
-            "Dracony\\Demo\\" : "src/",
-            "Dracony\\Demo\\Tests\\" : "tests/"
+            "Alex\\Demo\\" : "src/",
+            "Alex\\Demo\\Tests\\" : "tests/"
         }
     }
 }

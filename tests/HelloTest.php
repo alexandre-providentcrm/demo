@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @coversDefaultClass \Dracony\Demo\Hello
+ * @coversDefaultClass \Alex\Demo\Hello
  */
 class HelloTest extends \PHPUnit_Framework_TestCase
 {
@@ -9,7 +9,7 @@ class HelloTest extends \PHPUnit_Framework_TestCase
     
     public function setUp()
     {
-        $this->hello = new \Dracony\Demo\Hello();
+        $this->hello = new \Alex\Demo\Hello();
     }
     
     /**
