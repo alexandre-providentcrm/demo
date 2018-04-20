@@ -17,3 +17,8 @@ before_script:
 script:
   - "phpunit --testsuite=unit --coverage-text --coverage-clover build/logs/clover.xml"
   - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
+
+deploy:
+  provider: heroku
+  api_key: 2048a2ea-19be-43e9-ad61-517434f81375
+  app: demo-travis
