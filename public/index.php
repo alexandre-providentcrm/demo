@@ -7,3 +7,4 @@ $hello = new \Alex\Demo\Hello();
 
 echo $hello->world();
 
+echo 'test'
